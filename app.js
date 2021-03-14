@@ -6,7 +6,7 @@ const {MONGOURI} = require('./config/keys')
 var cors = require('cors')
 app.use(cors())
 
-mongoose.connect(MONGOURI,{
+mongoose.connect("mongodb+srv://shubhams7134:SxIPd2HBoUCjbjDm@cluster0.9myr5.mongodb.net/<dbname>?retryWrites=tr",{
     useNewUrlParser:true,
     useUnifiedTopology: true
 
