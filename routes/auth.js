@@ -10,7 +10,7 @@ const requireLogin = require('../middleware/requireLogin')
 const nodemailer = require('nodemailer')
 const sendgridTransport = require('nodemailer-sendgrid-transport')
 const {SENDGRID_API,EMAIL} = require('../config/keys')
-//api_key:"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"
+
 
 const transporter = nodemailer.createTransport(sendgridTransport({
     auth:{
