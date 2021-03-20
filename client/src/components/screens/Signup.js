@@ -71,7 +71,7 @@ const SignIn  = ()=>{
    return (
       <div className="mycard">
           <div className="card auth-card input-field">
-            <h2>Instagram</h2>
+            <span style={{fontWeight:'25',marginLeft:'auto',fontFamily:'Roboto',fontSize:'30px',color:'black'}}>socialzzz</span>
             <input
             type="text"
             placeholder="name"

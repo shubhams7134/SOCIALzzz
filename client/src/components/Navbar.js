@@ -34,8 +34,8 @@ const NavBar = ()=>{
            ]
        }else{
          return [
-          <li  key="6"><Link to="/signin">Signin</Link></li>,
-          <li  key="7"><Link to="/signup">Signup</Link></li>
+          <li  key="6"><Link to="/signin" style={{fontWeight:'25',marginLeft:'50px',fontFamily:'Roboto',fontSize:'30px',color:'black'}}>Sign in</Link></li>,
+          <li  key="7"><Link to="/signup" style={{fontWeight:'25',marginRight:'10px',fontFamily:'Roboto',fontSize:'30px',color:'black'}}>Signup</Link></li>
          
          ]
        }
@@ -60,7 +60,7 @@ const NavBar = ()=>{
     return(
         <nav>
         <div className="nav-wrapper white">
-          <Link to={state?"/":"/signin"} className="brand-logo left">Instagram</Link>
+          <Link to={state?"/":"/signin"} style={{fontWeight:'25',marginLeft:'50px',fontFamily:'Roboto',fontSize:'50px',color:'black'}}>Socialzzz</Link>
           <ul id="nav-mobile" className="right">
              {renderList()}
   
